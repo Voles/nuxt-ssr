@@ -1,6 +1,10 @@
 <template>
   <div>
     <weather :title="city" :degrees="degrees"></weather>
+
+    <nuxt-link to="/cities/Volendam" class="button--grey">Volendam</nuxt-link>
+    <nuxt-link to="/cities/Maastricht" class="button--grey">Maastricht</nuxt-link>
+
     <nuxt-link to="/" class="button--grey">❮</nuxt-link>
   </div>
 </template>

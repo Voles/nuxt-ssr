@@ -18,4 +18,13 @@ $ npm start
 $ npm run generate
 ```
 
+## Deploy
+
+Best to deploy to Surge, which understands the `200.html` file. Used when linking to a nested route.
+
+``` bash
+$ npm i -g surge
+$ surge dist
+```
+
 For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
