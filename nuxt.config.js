@@ -34,6 +34,12 @@ module.exports = {
         })
       }
     }
+  },
+  generate: {
+    routes: [
+      '/server-side-rendered/Maastricht',
+      '/server-side-rendered/Volendam'
+    ]
   }
 }
 
